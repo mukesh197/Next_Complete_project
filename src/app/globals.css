@@ -1,0 +1,27 @@
+:root{
+  --bg:#0d0c22;
+  --bgSoft:#2d2b42;
+  --text:white;
+  --textSoft:#e5e5e5;
+  --btn:#3673fd;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content:space-between ;
+  border: 2px solid red;
+  min-height: 100vh;
+
+}

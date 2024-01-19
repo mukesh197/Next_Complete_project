@@ -1,0 +1,48 @@
+.postcard_main_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.postcard_top{
+
+    display: flex;
+}
+
+.imgContainer{
+    width: 90%;
+    height: 400px;
+    position: relative;
+}
+
+.postcard_img{
+    object-fit: cover;
+}
+
+.postcard_top .postcard_date{
+    font-size: 15px;
+    transform: rotate(270deg);
+    margin: auto;
+  
+}
+
+.title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 88%;
+}
+
+.desc{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: gray;
+    width: 88%;
+}
+
+.postcard_link{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.postcard_bottom{}

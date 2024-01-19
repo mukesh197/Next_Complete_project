@@ -1,0 +1,21 @@
+.navbar_wrapper{
+    border: 10px double black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 50px;
+}
+.navbar_item{
+   
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.navbar_item ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    list-style: none;
+}

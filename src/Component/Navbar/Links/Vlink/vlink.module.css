@@ -1,0 +1,21 @@
+.nav_item{
+    margin-left: 70px;
+    transition: all 0.2s linear;
+}
+
+.nav_item:hover{
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+.active{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+}

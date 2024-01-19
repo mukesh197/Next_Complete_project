@@ -1,0 +1,45 @@
+.logout{
+    padding: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.mobile_link{
+  display: none;
+}
+
+.menuButton{
+    display: none;
+}
+
+@media screen and (max-width:960px) {
+
+  
+
+    .link_wrapper{
+        display: none;
+    }
+
+   
+    .menuButton{
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mobile_link{
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 25%;
+        height: calc(100vh - 100px);
+        background-color: rebeccapurple;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+}

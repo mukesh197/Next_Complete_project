@@ -1,0 +1,14 @@
+.postuser_main_wrapper{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.postuser_text{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+.user_avtar{
+    border-radius: 50%;
+}

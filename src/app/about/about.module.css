@@ -1,0 +1,55 @@
+.about_main_wrapper{
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left:200PX ;
+    padding-right: 100PX;
+}
+
+.about_subtitle{
+    color: rgb(96, 96, 153);
+}
+
+.about_title{
+    font-size: 54px;
+}
+
+.about_desc{
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.about_boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_boxes .box h1{
+    color:rgb(96, 96, 153) ;
+}
+
+.about_image{
+    flex: 1;
+     position: relative;
+     height: 600px;
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ 
+
+}
+.about_image img{
+   
+}
